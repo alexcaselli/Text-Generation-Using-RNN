@@ -3,4 +3,4 @@ Give a large book from Project Gutenberg (e.g., The Count of Monte Cristo). Trai
 
 This project uses TensorFlow and LSTM cells to train a rcurrent model able to generate sentences in plain English.
 
-The same model can be used to learn from your exported Telegram conversations given a preprocessing function available in this repository.
+The same model can be used to learn from your Json exported Telegram conversations given a preprocessing function available in this repository which cast the Json formatted chat to the plain txt version.
